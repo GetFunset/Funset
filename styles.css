@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif; /* Updated to match the font */
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#hero {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 3em; /* Adjusted to match the font size */
+    font-weight: 700; /* Adjusted to match the boldness */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.25em; /* Slightly increased font size */
+    font-weight: 400; /* Adjusted weight */
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    background-color: #004d40; /* Darker green background */
+    color: #fff;
+    padding: 15px 30px; /* Increased padding for larger button */
+    border: 2px solid #fff;
+    border-radius: 25px; /* More rounded edges */
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.cta-button:hover {
+    background-color: #00695c; /* Slightly darker on hover */
+}
